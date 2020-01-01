@@ -1,0 +1,114 @@
+/* main.css */
+
+body, html{
+	width: 100%;
+	height: auto;
+	font-family: Verdana, Genava,Tahoma,sans-serif;	padding: 0;
+	margin: 0;
+}
+
+.menu{
+	background: blue;
+
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.menu .container .wrapper-menu{
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+
+}
+.menu .container .wrapper-menu .brand h3{
+	font-weight: bold;
+
+}
+.menu .container .wrapper-menu .main-menu{
+	flex: 1;
+	text-align: right;
+}
+.menu .container .wrapper-menu .main-menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px;
+}
+.main-menu ul li a{
+
+	text-decoration: none;
+	color: #fff;
+/* 	display: inline-block;
+*/}
+.main-menu ul li button{
+	font-size: 20px;
+	background: blue;
+	color: white;
+	border-radius: 2px;
+}
+
+.banner{
+	background: red;
+	border: 1px solid red;
+	height: 500px;
+
+
+}
+.banner .left-banner{
+	float: left;
+	text-align: left;
+	width: 40%;
+	height: 500px;
+	padding-top: 200px;
+	margin: 0px;
+}
+.banner .left-banner h2{
+	color: blue;
+	margin: 0px;
+
+}
+.banner .left-banner h1{
+	color: black;
+	margin: 0px;
+
+}
+.banner .left-banner p{
+	color: black;	
+	margin: 0px;
+
+}
+.banner .left-banner span{
+	font-size: 20px;
+}
+.banner .right-banner{
+	background: blue;
+	float: right;
+	width: 50%;
+	height: 500px;
+
+}
+.introduce{
+	height: 400px;
+	background: 
+}
+.introduce .left-intro{
+	width: 70%;
+	height: 400px;
+	float: left;
+}
+.introduce .right-intro{
+	width: 28%;
+	height: 400px;
+	float: right;
+	display: inline-block;
+	background-color: blue;
+}
+
+.introduce .right-intro 
+
+

@@ -1,0 +1,100 @@
+	/* styles.css */
+	body
+	{
+		height: 1000px;
+	}
+	
+	.menu{
+		width: 100%;
+		height: 60px;
+		display: flex;
+		flex-direction:;
+		justify-content: space-around;
+		font-size: 20px;
+		background-color: yellow;
+		border: 1px solid red;
+	}
+	.menu div{
+		border: 1px solid red;
+		width: 60px;
+		height: 50px;
+	}
+	.menu .main{
+		width: 900px;
+		height: 50px;
+		border: 1px solid red;
+	}
+
+
+
+	.banner{
+		background-image: url('https://portal.vtc.gov.vn/Storage/nguyenletan/attachfiles_82/THIEN_NHIEN_V_NAM_banner/THIEN%20NHIEN%20V%20NAM%20banner.jpg');
+		height: 400px;
+		width: 100%;
+		
+		position: relative;
+		background-size: cover;
+	}
+	.banner .con{
+		height: 100px;	
+		width: 500px;
+		background-color: blue;
+		font-size: 10px;
+		padding: 6px;
+		border: 1px solid red;
+		position: absolute;
+		top: 60%;
+		left: 10%;
+		color: white;
+	}
+	.content{
+		height: 70%;
+		width: 100%;
+
+	}
+	.content .left{
+		float: left;
+		height: 100%;
+		width: 45%;
+		font-size: 30px;
+		border: 1px solid red;
+		text-align: right;
+	}
+	.content .left button {
+		background-color: blue;
+		font-size: 15px;
+		color: white;
+		height: 50px;
+		width: 80px;
+	}
+	.content .left h1,	.content .left h6{
+		padding-left: 100px;
+	}
+	.content .right{
+		float: right;
+		background-image: url('https://p
+			ortal.vtc.gov.vn/Storage/nguyenletan/attachfile
+			s_82/THIEN_NHIEN_V_NAM_banner/THIEN%20NHIEN%20V%20NAM%20banner.jpg');
+		width: 50%;
+		background-size: cover;
+		height: 100%;
+	}
+
+	footer{
+		height: 20%;
+		width: 100%;
+		display: flex;
+		flex-direction:;
+		justify-content: space-between;
+		font-size: 15px;
+		background-color: yellow;
+
+		
+		border: 1px solid red;
+
+	}
+	footer div{
+		
+	}
+
+

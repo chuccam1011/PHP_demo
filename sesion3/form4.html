@@ -1,0 +1,157 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Form 4 </title>
+	<link rel="stylesheet" href="">
+</head>
+<style type="text/css" media="screen">
+	body{
+		height: 100%;
+		width: 100%;
+		background-color:#1E1620;
+
+	}
+	.wrapper{
+		width: 80%;
+		height: 100%;
+		margin: 0px auto;
+		background-color: black;
+	}
+	.wrapper .left{
+		float: left;
+		width: 50%;
+		background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/7b/7d/ef/b-a-t-i-t-i-nha-hang.jpg');
+		height: 100%;
+		background-size: cover;
+	}
+	.wrapper .right{
+		width: 45%;	
+		height: 100%;
+		float: right;
+
+
+	}
+	h2{
+		margin-top: 100px;
+		font-size: 30px;
+		color: white;
+	}
+	.wrapper .right{
+		color: white;
+	}
+	.wrapper .right .form-control input{
+		font-size: 30px;
+		border: none;
+		color: white;
+
+		background-color: black;
+		border-bottom: 1px solid white;
+		margin-top: 20px;
+	}
+	
+
+	.right h3{
+		margin-top: 50px;
+	}
+	.right > input{
+		font-size: 15px;
+		margin-top: 30px;
+		color: white;
+		background-color: #9C6216;
+		border: none;
+		height:50px; 
+		width: 150px;
+		border-radius: 10px;
+		font-weight: bold;
+		text-align: center
+
+	}
+	.right .form-select span button{
+		border-radius: 50% 50%;
+		margin-left: 10px;
+		font-size: 20px;
+		font-weight: bold;
+		height: 50px;
+		width: 50px;
+		background-color: white;
+		color: black;
+		border: none;
+		
+		/* 	position: absolute; */
+
+
+	}
+	.right .form-select span .btn {
+		background-color: #9C6216;
+		height: 20%;
+		display: inline-block;
+		height: 55px;
+		width: 140px;
+		border-radius: 30% /60%;
+		padding-top: 5px;
+		position: relative;
+	}
+	.right .form-select span .btn p{
+		position: absolute;
+
+		top: -6px;
+		right: 16px;
+		font-weight:  bold;
+		font-size: 20px;
+	}
+
+	
+	.right > a{
+		color: yellow;	
+		padding-top: 20px;
+		text-decoration: none;
+	}
+	
+</style>
+<body>
+	<div class="wrapper">
+		
+		<div class="left">
+			
+		</div>
+		<div class="right">
+			<div class="form-control">
+				<h2>Booking place for your diner !</h2>
+				<input type="text" name="name" value="" placeholder="Your Name">
+				<input type="text" name="phone" value="" placeholder="Your Phone Number">
+				<input type="text" name="time" value="" placeholder="Time">
+				<input type="text" name="food" value="" placeholder="Food">
+
+			</div>
+			<div class="form-select">
+				<h3>Select Your Dining Space </h3>
+				<span >
+					<span >
+
+						<button type="button">2</button>
+					</span>
+					<div class="btn">
+						<button type="button">4</button>
+						<p>Person</p>
+					</div>
+					<span>
+						<button type="button">6</button>
+					</span>
+					<span>
+						<button type="button">8</button>
+					</span>
+
+				</span>
+				
+			</div>
+			<input type="button" name="book" value="Book Now">
+			<br>	<br>
+			<a href="#" title=""> Varity booking info from your phone </a>
+		</div>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<div class="menu">
+		<div class="container">
+			<div class="wrapper-menu">
+				<div class="brand">
+					<h1>BRAND</h1>
+				</div>
+				<div class="main-menu">
+					<ul>
+						<li> <a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner">
+		<div class="backgroud">
+			<img src="https://portal.vtc.gov.vn/Storage/nguyenletan/attachfiles_82/THIEN_NHIEN_V_NAM_banner/THIEN%20NHIEN%20V%20NAM%20banner.jpg" alt="">
+		</div>
+		<div class="wrapper-slogan">
+			<div class="container">
+				<div class="slogan">
+					<h4>SteP into  the light</h4>
+					<h6>Wiht our special coffee flavour</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="container">
+			<div class="wrapper-content">
+				<div class="text-box">
+					<h4>Bets <br> Design is a  <br>Language</h4>
+					<p>
+						Nomjlfajkfajfhfjhfs;kakff;kjh
+						<br>310 <br>
+						jkfjlkafjlkj
+					</p>
+					<button type="button">Readmoer</button>
+
+				</div>
+				<div class="thumb">
+					<img src="https://portal.vtc.gov.vn/Storage/nguyenletan/attachfiles_82/THIEN_NHIEN_V_NAM_banner/THIEN%20NHIEN%20V%20NAM%20banner.jpg" alt="">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="wrapper-footer">
+				<div class="elm-footer">
+					<h5>Service</h5>
+					<ul>
+						<li><a href="#">Lorem Ipsum is simply dummy</a></li>
+						<li><a href="#">The industry's standard</a></li>
+						<li><a href="#">Electronic typesetting</a></li>
+					</ul>
+				</div>
+				<div class="elm-footer">
+					<h5>Contact</h5>
+					<p>Phone: <strong>+84.123.345.567</strong></p>
+					<p>Email: <strong>demo@gmail.com</strong></p>
+				</div>
+				<div class="elm-footer">
+					<h5>Where you can find Us?</h5>
+					<p>
+						Address:<br><br>
+						<strong>- Tayho, Hanoi,Vietnam</strong>
+					</p>
+					<p>
+						howroom:<br><br>
+						<strong>- Kangnam, Hanoi,Vietnam</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<style type="text/css" media="screen">
+	*{
+		box-sizing: border-box;
+		font-family: Verdana, Genava,Tahoma,sans-serif;
+
+	}
+	body{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+
+
+	}
+	.menu{
+		background: #16b87c;
+
+	}
+	.menu .wrapper-menu {
+		display: flex;
+		align-items: center;
+
+	}
+	.menu .brand h1{
+		margin: 0;
+		color: #fff;
+
+	} 
+	.menu .main-menu{
+		flex: 1;
+		text-align: right;
+	}
+
+	.menu .main-menu ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px;
+	}
+	.main-menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding:  25px 15px;
+		display:inline-block;
+	}
+	.main-menu ul li a.active{
+		border-top: 4px solid #fff;
+	}
+	.container {
+		width: 80%;
+		margin: 0px auto;
+		border: 1px solid red;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	.banner{
+		height: 600px;
+		position: relative;
+
+	}
+	.banner .backgroud{
+		z-index: 10;
+		position: absolute;
+		top: 0;left: 0;right: 0;bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.banner .backgroud img{
+		width: 100%;
+		min-height: 100%;
+	}
+	.banner .wrapper-slogan{
+		z-index: 100;
+		position: relative;
+		top: calc(50%-30px);
+	}
+	.banner .wrapper-slogan .slogan{
+		background: #16b87c;
+		position: absolute;
+		top: 400px;
+		left: 60px;
+		display: inline-block;
+		padding: 40px 150px 15px 10px;
+	}
+	.banner .wrapper-slogan .slogan h4{
+		color: #fff;
+		font-size: 50px;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	.banner .wrapper-slogan .slogan h6{
+		color: #fff;
+		font-size: 24px;
+		text-transform: uppercase;
+		margin: 10px 0px ;
+		padding: 0;
+		font-weight: bold;
+	}
+
+	.content{
+		padding: 100px 0px;
+	}
+	.content .wrapper-content{
+		display: flex;
+		align-items: stretch;
+		flex-wrap: nowrap;
+	}
+
+	.content .wrapper-content .text-box{
+		text-align: right;
+		padding-right: 100px;
+		flex: 1;
+	}
+	.content .wrapper-content .text-box button{
+		margin-top: 50px;
+		background: #16b87c;
+		border-radius: 0;
+		border: none;
+		padding: 15px 30px 15px 70px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.content .wrapper-content .thumb{
+		flex: 1.1;
+		overflow: hidden;
+		height: 750px;
+		border:  1px solid red;
+	}
+	.content .wrapper-content .thumb img{
+		min-width: 100%;
+		height: 100%;
+	}
+
+	.footer{
+		margin-top: 50px;
+		background-color: #16b87c;
+		padding: 50px 0px 100px 0px;
+	}
+	.footer .wrapper-footer{
+		display: flex;
+	}
+	.footer .wrapper-footer .elm-footer{
+		flex: 1;
+	}
+	.footer .wrapper-footer .elm-footer h5{
+		color: #fff;
+		font-weight: bold;
+		font-size: 16px;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+	}
+	.footer .wrapper-footer .elm-footer ul li{
+		list-style: none;
+		margin: 10px 0px;
+	}
+	.footer .wrapper-footer .elm-footer ul li a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+	}
+	.footer .wrapper-footer .elm-footer p{
+		font-size: 14px;
+		color: #fff;
+	}
+
+</style>
+</html>
