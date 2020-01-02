@@ -1,9 +1,9 @@
-/* main.css */
 
-body, html{
+body{
 	width: 100%;
-	height: auto;
-	font-family: Verdana, Genava,Tahoma,sans-serif;	padding: 0;
+	
+	font-family: Verdana, Genava,Tahoma,sans-serif;
+	padding: 0;
 	margin: 0;
 }
 
@@ -14,8 +14,9 @@ body, html{
 .container{
 	width: 80%;
 	margin: 0px auto;
-
+	border: 1px solid red;
 }
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -30,21 +31,23 @@ ul{
 	font-weight: bold;
 
 }
+
 .menu .container .wrapper-menu .main-menu{
 	flex: 1;
 	text-align: right;
 }
+
 .menu .container .wrapper-menu .main-menu ul li{
 	display: inline-block;
 	list-style: none;
 	margin: 10px;
 }
+
 .main-menu ul li a{
 
 	text-decoration: none;
 	color: #fff;
-/* 	display: inline-block;
-*/}
+}
 .main-menu ul li button{
 	font-size: 20px;
 	background: blue;
@@ -54,11 +57,9 @@ ul{
 
 .banner{
 	background: red;
-	border: 1px solid red;
 	height: 500px;
-
-
 }
+
 .banner .left-banner{
 	float: left;
 	text-align: left;
@@ -67,9 +68,11 @@ ul{
 	padding-top: 200px;
 	margin: 0px;
 }
+
 .banner .left-banner h2{
 	color: blue;
 	margin: 0px;
+
 
 }
 .banner .left-banner h1{
@@ -77,14 +80,17 @@ ul{
 	margin: 0px;
 
 }
+
 .banner .left-banner p{
 	color: black;	
 	margin: 0px;
 
 }
+
 .banner .left-banner span{
 	font-size: 20px;
 }
+
 .banner .right-banner{
 	background: blue;
 	float: right;
@@ -92,23 +98,59 @@ ul{
 	height: 500px;
 
 }
+
 .introduce{
 	height: 400px;
-	background: 
 }
-.introduce .left-intro{
+
+.con
+{
+	height: 100%;
+	width: 80%;
+	margin: 0px auto;
+	border: 1px solid red;
+}
+.wrapper-intro{
+	height: 100%;
+	position: relative;
+}
+.left-intro{
 	width: 70%;
-	height: 400px;
+	height: 70%;
 	float: left;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+
 }
-.introduce .right-intro{
-	width: 28%;
-	height: 400px;
-	float: right;
-	display: inline-block;
+.left-intro .intro-who{
+	display:inline-flex;
+}
+.left-intro .intro-who .hello2 h2{
+	padding-left: 5px;
+	color: blue;
+}
+.left-intro .intro-h{
+	font-size: 14px;
+	color: blue;
+}
+.left-intro .intro-h  .h1{
+	font-weight: bold;
+}
+.left-intro button{
 	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	height: 50px;
+	text-align: center;
 }
-
-.introduce .right-intro 
-
-
+.right-intro {
+	width: 15%;
+	height: 70%;
+	float: right;
+	background-color: blue;	
+	position: absolute;
+	top: 40px;
+	right: 20%;
+}
