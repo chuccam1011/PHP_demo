@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>baitapLab</title>
+	<link rel="stylesheet" href="">
+</head>
+
+<style type="text/css" media="screen">
+	/* .Big-img{
+		height: 500px;
+		width: 70%;
+	}
+	.Big-img img{
+		height: 500px;
+		width: 100%;
+	}
+	.small-img{
+		display:inline-block;
+	}
+	.small-img img{
+		height: 50px;
+		width: 50px;
+		} */
+
+		.tab{
+			height: 60px;
+			width: 300px;
+		}
+		.tab span{
+			margin-left: 10px;
+			width: 30%;
+			
+		}
+		.tab span button{
+			height: 50px;
+			width: 70px
+		}
+		.content{
+			height: 500px;
+			width: 80%;
+			position: relative;
+		}
+		.content #content-tab1{
+			position: absolute;
+			top: 0px;height: 500px;width: 100%;
+			left: 0px;
+			background-color: yellow;
+		}
+		.content #content-tab2{
+			position: absolute;
+			top: 0px;height: 500px;width: 100%;
+			left: 0px;
+			display: none;
+			background-color: red;
+		}
+		.content #content-tab3{
+			position: absolute;
+			top: 0px;
+			left: 0px;height: 500px;width: 100%;
+			display: none;
+			background-color: blue;
+		}
+
+	</style>
+	<body>
+	<!-- <div class="Big-img">
+		<img id="bigImg"src="hinh1.jpg" alt="">
+	</div>
+
+	<div class="small-img">
+		<img id="img0" onclick="changeSrc('img0')" src="hinh1.jpg" alt="">
+		<img id="img2" onclick="changeSrc('img2')" src="hinh2.jpg" alt="">
+		<img id="img3" onclick="changeSrc('img3')" src="hinh1.jpg" alt="">
+		<img id="img4" onclick="changeSrc('img4')" src="hinh2.jpg" alt="">
+
+	</div> -->
+	<div class="tab">
+		<span onclick="changeTab('tab1')"><button>Tab1</button></span>
+		<span onclick="changeTab('tab2')"><button>Tab2</button></span>
+		<span onclick="changeTab('tab3')"><button>Tab3</button></span>
+	</div>
+	<div class="content">
+		<div id="content-tab1">
+			<p>this is tab 1</p>
+		</div>
+		<div id="content-tab2">
+			<p>this is tab 2</p>
+		</div>
+		<div id="content-tab3">
+			<p>this is tab 3</p>
+		</div>
+	</div>
+	<script >
+		// function changeSrc(id){
+		// 	var hinh= document.getElementById(id).src;
+		// 	// var hinh= new Array();
+		// 	console.log(hinh);
+		// 	console.log(id);
+		// 	document.getElementById('bigImg').src=hinh;
+		// }
+		function changeTab(tab){
+			if (tab=='tab1') {
+				document.getElementById('content-tab2').style.display="none";
+				document.getElementById('content-tab3').style.display="none";
+				document.getElementById('content-tab1').style.display="inline-block";
+
+			}
+			if (tab=='tab2') {
+				document.getElementById('content-tab1').style.display="none";
+				document.getElementById('content-tab3').style.display="none";
+				document.getElementById('content-tab2').style.display="inline-block";
+
+			}
+			if (tab=='tab3') {
+				document.getElementById('content-tab1').style.display="none";
+				document.getElementById('content-tab2').style.display="none";
+				document.getElementById('content-tab3').style.display="inline-block";
+
+			}
+		}
+
+	</script>
+</body>
+</html>

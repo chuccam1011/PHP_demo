@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bai  tap</title>
+	<link rel="stylesheet" href="">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="slide.js" type="text/javascript" ></script>
+</head>
+
+<style type="text/css" media="screen">
+	
+	.tab{
+		height: 60px;
+		width: 300px;
+	}
+	.tab span{
+		margin-left: 10px;
+		width: 30%;
+
+	}
+	.tab span button{
+		height: 50px;
+		width: 70px
+	}
+	.content{
+		height: 500px;
+		width: 80%;
+		position: relative;
+	}
+	.content .content-tab1{
+		position: absolute;
+		top: 0px;height: 500px;width: 100%;
+		left: 0px;
+		background-color: yellow;
+	}
+	.content .content-tab2{
+		position: absolute;
+		top: 0px;height: 500px;width: 100%;
+		left: 0px;
+		display: none;
+		background-color: red;
+	}
+	.content .content-tab3{
+		position: absolute;
+		top: 0px;
+		left: 0px;height: 500px;width: 100%;
+		display: none;
+		background-color: blue;
+	}
+
+</style>
+<body>
+	<div class="tab">
+		<span class="tabb" data-tab=content-tab1><button>Tab1</button></span>
+		<span class="tabb"data-tab=content-tab2><button>Tab2</button></span>
+		<span class="tabb" data-tab=content-tab3><button>Tab3</button></span>
+	</div>
+	<div class="content">
+		<div class ="contentt content-tab1">
+			<p>this is tab 1</p>
+		</div>
+		<div class ="contentt content-tab2">
+			<p>this is tab 2</p>
+		</div>
+		<div class ="contentt content-tab3">
+			<p>this is tab 3</p>
+		</div>
+	</div>
+	
+</body>
+<!-- 
+<style type="text/css" media="screen">
+	.slide{
+		position: relative;
+		margin: 0px auto;
+	}
+	.slide	ul li{
+		list-style-type: none;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.slide img{
+		height: 200px;
+		width: 500px;
+	}
+	.next{
+		height: 40px;
+		width: 40px;
+		background-color: red;
+		position: absolute;
+		top: 40px;
+		right: 40px;
+	}
+	.pre{
+		height: 40px;
+		width: 40px;
+		background-color: red;
+		position: absolute;
+		top: 40px;
+		left: 40px;
+	}
+</style>
+<body>
+	<div class="slide">
+		<ul >
+			<li><img src="hinh1.jpg" alt=""></li>
+			<li><img src="hinh2.jpg" alt=""></li>
+			<li><img src="hinh3.jpg" alt=""></li>
+			<button class="pre"> <<< </button>
+			<button class="next"> >>> </button>
+		</ul>
+	</div>
+	
+	
+</body> -->
+</html>
