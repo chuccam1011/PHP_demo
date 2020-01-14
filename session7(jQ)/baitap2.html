@@ -1,0 +1,73 @@
+<!-- baitap2.html
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bai  2</title>
+	<link rel="stylesheet" href="">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<style type="text/css" media="screen">
+	body{
+		position: relative;
+	}
+	div{
+		height: 200px;
+		width: 300px;
+	}
+	img{
+		height: 100%;
+		width: 100%;
+	}
+	.img1{
+		float: left;
+		position: absolute;
+
+	}
+	.img2{
+		float: right;
+	}
+	.img3{
+		float: left;
+		margin-top: 300px;
+		position: absolute;
+	}
+</style>
+<body>
+	<button class="dichuyen" type="button">Di chuyen</button>
+	<div class="img1">
+		<img src="mon1.jpg" alt="">
+	</div>
+	<div class="img2">
+		<img src="mon2.jpg" alt="">
+	</div>
+	<div class="img3">
+		<img src="mon3.jpg" alt="">
+	</div>
+
+
+	<script>
+		$(document).ready(function(){
+			$('.dichuyen').click(function(){
+				$('.img1').css('left','100px').css({
+					'height':'300px',
+					'width':'400px'
+				});
+			});
+			$('.dichuyen').click(function(){
+				$('.img2').css('opacity','0.5');
+			});
+			$('.dichuyen').click(function(){
+				$('.img3').css('right','100px').css({
+					'height':'300px',
+					'width':'400px'
+				});
+			});
+
+		});
+	</script>
+</body>
+</html>
